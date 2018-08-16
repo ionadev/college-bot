@@ -1,0 +1,9 @@
+{
+  "name": "College Bot",
+  "description": "Yeah",
+  "version": "1.0.0",
+  "dependencies": {
+    "klasa": "dirigeants/klasa",
+    "discord.js": "discordjs/discord.js"
+  }
+}
