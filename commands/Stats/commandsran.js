@@ -41,7 +41,7 @@ module.exports = class extends Command {
 				])
 				.titleOptions({ text: 'Chart' })
 				.toBuffer();
-			let embed = new MessageEmbed();
+			let embed = new MessageEmbed()
 				.attachFiles([new MessageAttachment(chart, 'chart.png')])
 				.setImage('attachment://chart.png');
 		
