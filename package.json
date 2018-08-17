@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "asynckit": "^0.4.0",
     "discord.js": "discordjs/discord.js",
@@ -6,6 +9,8 @@
     "klasa": "dirigeants/klasa",
     "node-gyp": "^3.8.0",
     "rebuild": "^0.1.2",
+        "highcharts-export-server": "^2.0.13",
+    "chart-constructor": "QuarksWorks/chartConstructor#master",
     "heapdump": "^0.3.9",
     "util": "^0.11.0"
   }
